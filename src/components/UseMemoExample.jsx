@@ -22,6 +22,7 @@ function UseMemoExample() {
       console.log(prevState + 1)
       return prevState + 1
     })
+    console.log(inc)
   }
 
   return (
